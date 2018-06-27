@@ -151,7 +151,7 @@ def helpmessage():
                   "╠➥ SearchImage「Search」" + "\n" + \
                   "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©MUSA  〙"
+                  "╚═〘 Credits By: Mosen.bw 〙"
     return helpMessage
     
 def helptexttospeech():
@@ -364,7 +364,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "ua68f1a941b69d423fd3516bbea0d0b3")
+                    nadya.sendContact(to, "ud3ea5ca2328f1fbb9c9dbc8ed6cfbf71")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
