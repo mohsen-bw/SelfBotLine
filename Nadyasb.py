@@ -75,7 +75,7 @@ def sendMessageWithMention(to, mid):
         logError(error)
         
 def helpmessage():
-    helpMessage = "╔═══════════════" + "\n" + \
+    helpMessage = "╔══❂͜͡☆➣ [ṃȏśє͜͡n.ɞȏṭ]════" + "\n" + \
                   "╠♥ ✿✿✿ Mosen.bw ✿✿✿ ♥" + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
@@ -210,7 +210,7 @@ def helptexttospeech():
                          "╠ vi : Vietnamese" + "\n" + \
                          "╠ cy : Welsh" + "\n" + \
                          "╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
-                          "Contoh : say-id Nadya Cantik"
+                          "Contoh : ✯͜͡m̸̸͟͞o̸͟͞s̸͟͞e̸͟͞n̸͟͞.̸͟͞b̸͟͞w̸͟͞✠>"
     return helpTextToSpeech
     
 def helptranslate():
@@ -424,7 +424,7 @@ def lineBot(op):
                         else: ret_ += "\n╠ Check Sticker ❌"
                         if settings["detectMention"] == True: ret_ += "\n╠ Detect Mention ✅"
                         else: ret_ += "\n╠ Detect Mention ❌"
-                        ret_ += "\n╚══[ Status ]"
+                        ret_ += "\n╚══[ ✯͜͡m̸̸͟͞o̸͟͞s̸͟͞e̸͟͞n̸͟͞.̸͟͞b̸͟͞w̸͟͞✠> ]"
                         nadya.sendMessage(to, str(ret_))
                     except Exception as e:
                         nadya.sendMessage(msg.to, str(e))
@@ -2041,7 +2041,7 @@ def lineBot(op):
                     nadya.sendMessage(msg.to, A)
 #==============================================================================#   
                 elif text.lower() == 'kalender':
-                    tz = pytz.timezone("Asia/Makassar")
+                    tz = pytz.timezone("Asia/Tehran")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                     hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
